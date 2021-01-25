@@ -1,4 +1,0 @@
-PORT=3000
-API_VERSION=v1.0
-MONGODB_URL=mongodb://mongo:27017
-JWT_SECRET=todolistsecret
