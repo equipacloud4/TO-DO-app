@@ -1,0 +1,21 @@
+version: '3.9'
+ 
+services:
+  backend:
+    build: backend
+    ports:
+        - "3000:3000"
+    links:
+        - mongo 
+  frontend:
+    build: frontend
+    ports:
+    - "4200:4200"
+  mongo:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=admin
+      - MONGO_INITDB_ROOT_PASSWORD=admin
+    ports:
+      - "27017:27017"
+      
