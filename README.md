@@ -2,4 +2,4 @@ To run this app, open your powershell and put de following command on the projec
 
 "docker-compose up -d --build"
 
-Acess: http://localhost:4200/
+Access: http://localhost:4200/
