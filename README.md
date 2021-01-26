@@ -17,7 +17,7 @@ MONGODB:
         You can see it on http://localhost:27017/
         
 BACKEND:
- - Open a new terminal, go to the Backtend directory and enter these:
+ - In your comand line go to the Backtend directory and enter these:
    - npm install
    - npm start
    
