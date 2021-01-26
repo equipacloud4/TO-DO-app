@@ -16,6 +16,13 @@ MONGODB:
    
         You can see it on http://localhost:27017/
         
+BACKEND:
+ - Open a new terminal, go to the Backtend directory and enter these:
+   - npm install
+   - npm start
+   
+       You can see it on http://localhost:3000/
+       
 FRONTEND:
  - In your comand line go to the Frontend directory and enter these:
    - npm install -g @angular/cli@11.0.5
@@ -24,13 +31,6 @@ FRONTEND:
    
        The APP will be available on http://localhost:4200/
        
-BACKEND:
- - Open a new terminal, go to the Backtend directory and enter these:
-   - npm install
-   - npm start
-   
-       The APP will be available on http://localhost:3000/
-
 To run your APP on docker containers:
  - Through the docker-compose file, all 3 containers will be created and inicialized. All you have to do is run this comand in your project directory:
    - docker-compose up -d --build
