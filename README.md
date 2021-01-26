@@ -3,7 +3,7 @@ NODE, ANGULAR AND MONGODB APP, YOU CAN APPLY TO DOCKER CONTAINERS.
 This APP allows you to create and temporarily store new inputs.
 
 What you will nedd:
- - clone this repository
+ - git clone this repository
  - docker 
  - node v14.15.4
  - angular cli v11.0.5
