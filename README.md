@@ -33,7 +33,8 @@ BACKEND:
 
 To run your APP on docker containers:
  - Through the docker-compose file all 3 containers will be created and inicialized. All you have to do is run the comand:
-   - "docker-compose up -d --build"
+   - docker-compose up -d --build
+   
        Access the APP through http://localhost:4200/
 
 Have FUN!!!
