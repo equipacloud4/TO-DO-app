@@ -9,7 +9,6 @@ What you will nedd:
  - angular cli v11.0.5
 
 Test your APP locally:
-
 MONGODB:
  - Dockerhub already has an image for mongo, so you can use that one, run this in your comand line:
    - docker run -p 27017:27017 -d --name mongo-todolist -e MONGO_INITDB_ROOT_USERNAME=admin -e MONGO_INITDB_ROOT_PASSWORD=admin mongo
