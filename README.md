@@ -32,7 +32,7 @@ BACKEND:
        The APP will be available on http://localhost:3000/
 
 To run your APP on docker containers:
- - Through the docker-compose file all 3 containers will be created and inicialized. All you have to do is run the comand:
+ - Through the docker-compose file, all 3 containers will be created and inicialized. All you have to do is run this comand in your project directory:
    - docker-compose up -d --build
    
        Access the APP through http://localhost:4200/
