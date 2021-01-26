@@ -2,7 +2,7 @@ NODE, ANGULAR AND MONGODB APP, YOU CAN APPLY TO DOCKER CONTAINERS.
 
 This APP allows you to create and temporarily store new inputs.
 
-<[image](https://user-images.githubusercontent.com/76655210/105786423-f9662c80-5f74-11eb-9d93-5a04e7542aba.png width="200" height="100">
+<img src="https://user-images.githubusercontent.com/76655210/105786423-f9662c80-5f74-11eb-9d93-5a04e7542aba.png" width="200">
 
 What you will nedd:
  - git clone this repository
