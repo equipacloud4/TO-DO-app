@@ -4,13 +4,13 @@ This APP allows you to create and temporarily store new inputs.
 
 <img src="https://user-images.githubusercontent.com/76655210/105786423-f9662c80-5f74-11eb-9d93-5a04e7542aba.png" width="600">
 
-What you will nedd:
+###What you will nedd:
  - git clone this repository
  - docker 
  - node v14.15.4
  - angular cli v11.0.5
 
-Test your APP locally:
+###Test your APP locally:
 
 MONGODB:
  - Dockerhub already has an image for mongo, so you can use that one, run this in your comand line:
@@ -33,7 +33,7 @@ FRONTEND:
    
        The APP will be available on http://localhost:4200/
        
-To run your APP on docker containers:
+###To run your APP on docker containers:
  - Through the docker-compose file, all 3 containers will be created and inicialized. All you have to do is run this comand in your project directory:
    - docker-compose up -d --build
    
