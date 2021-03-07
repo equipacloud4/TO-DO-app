@@ -7,6 +7,7 @@ import Project from './models/project';
 
 const connectDb = () => {
   return mongoose.connect(process.env.MONGODB_URL, {
+    useCreateIndex: true,
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useFindAndModify: false,

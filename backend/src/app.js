@@ -13,6 +13,6 @@ app.use('/api/' + process.env.API_VERSION + '/', require('./routes'));
 
 connectDb().then(async () => {
     app.listen(process.env.PORT, () =>
-        console.log('Example app listening on port ${process.env.PORT}!'),
+        console.log("Example app listening on port " + process.env.PORT + "!"),
     );
 });
