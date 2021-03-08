@@ -25,6 +25,8 @@ services:
     container_name: mongo
     volumes:
       - mongo:/home/node/mongo
+    volumes:
+      myapp:
     restart: always
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
