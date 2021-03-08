@@ -23,6 +23,8 @@ services:
   mongo:
     image: mongo
     container_name: mongo
+    volumes:
+      - mongo:/home/node/mongo
     restart: always
     environment:
       - MONGO_INITDB_ROOT_USERNAME=admin
