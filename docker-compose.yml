@@ -1,4 +1,7 @@
 version: '3'
+volumes:
+  dados:
+    external: true
 services:
   backend:
     image: back
@@ -17,7 +20,7 @@ services:
     container_name: frontend
     restart: always
     ports:
-      - "4200:4200"
+      - "4200:80"
     networks:
       - rede
   mongo:
@@ -28,6 +31,8 @@ services:
       - MONGO_INITDB_ROOT_PASSWORD=admin
     ports:
       - "27017:27017"
+    volumes:
+      - dados:/data/db:rw
     networks:
       - rede
 networks:
